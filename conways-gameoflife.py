@@ -11,9 +11,11 @@ running = True
 blockSize = 50
 blockDrawSize = blockSize - 1
 grid = []
+deadcolor = (14,197,249)
+alivecolor = (249,14,167)
 colors = {
-    "dead" : "black",
-    "alive" : "red",
+    "dead" : deadcolor,
+    "alive" : alivecolor,
 }
 
 count = -1
