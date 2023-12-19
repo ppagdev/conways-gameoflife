@@ -61,7 +61,7 @@ def getLiveNeighbourCount(x,y):
     liveNeighbourCount = 0
     xlength = len(grid)-1
     ylength = len(grid[0])-1
-    print(x,y)
+    #print(x,y)
     #specific cases
     #x=0
     if x == 0:
@@ -170,7 +170,7 @@ def getLiveNeighbourCount(x,y):
 def main():
     xlength = len(grid)
     ylength = len(grid[0])
-    print(xlength,ylength)
+    #print(xlength,ylength)
     for x in range(xlength):
         for y in range(ylength):
             if grid[x][y] == "alive":
