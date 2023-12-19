@@ -2,6 +2,10 @@ import pygame
 
 pygame.init()
 
+icon = pygame.image.load("conways-gameoflife-icon.png")
+pygame.display.set_icon(icon)
+pygame.display.set_caption("Conway's Game of Life")
+
 # global variables
 windowHeight = 750
 windowWidth = 750
